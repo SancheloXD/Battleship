@@ -27,14 +27,14 @@ public class logic {
             if (x >= 10) {
                 System.out.println("Не верное значения Х:");
             }else {
-                break;
+                continue;
             }
             System.out.println("Введите значения Y:");
             int y = scanner.nextInt();
             if (y >= 10) {
                 System.out.println("Не верное значения Y:");
             }else {
-                break;
+                continue;
             }
             if (battlefield[x][y] == 1) {
                 System.out.println("Попал! повтори ход!");
